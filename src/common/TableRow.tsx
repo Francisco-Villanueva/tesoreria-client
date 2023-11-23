@@ -1,9 +1,10 @@
+import { ReactNode } from "react";
 import { TableLayout } from ".";
 import useModal from "../hooks/useModal";
 import { ShortArrowIcon } from "./Icons";
 
 interface Props {
-  children: any;
+  children: ReactNode;
   index: number;
   collapseRow?: boolean;
 }
