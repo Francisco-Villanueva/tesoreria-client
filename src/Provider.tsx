@@ -1,5 +1,5 @@
 import { RootStore, RootStoreContext } from "./models/root.store";
-import { ReactNode, useCallback, useEffect } from "react";
+import { ReactNode, useEffect } from "react";
 import { RamasServices } from "./services/ramas.services";
 
 type ProvidersProps = {
@@ -12,15 +12,10 @@ export default function Providers({ children }: ProvidersProps) {
     ramas: {},
   });
 
-  const setData = useCallback(async () => {
+  useEffect(() => {
     RamasServices.getAllRamas().then((res) => {
       store.ramas.setRamas(res);
     });
-  }, [store]);
-  /* ACA AGREGAR EL FETCHING DE DATOS A  LA DB DE LA COMUNIDAD. */
-
-  useEffect(() => {
-    setData();
   }, [store]);
 
   return (

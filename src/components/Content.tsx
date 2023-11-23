@@ -1,5 +1,5 @@
 import { Route, Routes } from "react-router-dom";
-import RamaInfo from "../views/RamaInfo";
+import { RamaInfo } from "../views/RamaInfo";
 
 export function Content() {
   return (
