@@ -1,6 +1,7 @@
 import { ramas_fake } from "../mocks/ramas";
+import { Rama } from "../types";
 export class RamasServices {
-  static async getAllRamas() {
-    return ramas_fake;
+  static getAllRamas(): Promise<Rama[]> {
+    return Promise.resolve(ramas_fake as Rama[]);
   }
 }
