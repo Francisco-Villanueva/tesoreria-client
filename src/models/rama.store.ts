@@ -8,7 +8,7 @@ export const RamasStore = types
   })
   .views((store) => ({
     get selectedRama() {
-      return store.ramas.find((rama) => rama._id === store.ramaId);
+      return store.ramas.find((rama) => rama.id === store.ramaId);
     },
     get selectedRamaCount() {
       return this.selectedRama?.members.length;

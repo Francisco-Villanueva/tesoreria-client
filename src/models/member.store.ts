@@ -12,9 +12,7 @@ export const MemberStore = types
     },
 
     get selectedMember() {
-      return store.members.find(
-        (member) => member._id === store.memberSelected
-      );
+      return store.members.find((member) => member.id === store.memberSelected);
     },
   }))
   .actions((store) => ({
