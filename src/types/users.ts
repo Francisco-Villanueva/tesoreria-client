@@ -5,7 +5,7 @@ export const USER_ROLES = ['admin', 'dirigente']
 export type UserRole = keyof (typeof USER_ROLES)[number]
 
 export const UserModel = types.model({
-	_id: types.string,
+	id: types.string,
 	name: types.optional(types.string, ''),
 	email: types.optional(types.string, ''),
 	password: types.optional(types.string, ''),

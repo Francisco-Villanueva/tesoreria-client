@@ -4,7 +4,7 @@ export const MEMEBER_STATUS = ['active', 'inactive']
 export type MemberStatus = (typeof MEMEBER_STATUS)[number]
 
 export const MemberModel = types.model({
-	_id: types.string,
+	id: types.string,
 	name: types.string,
 	lastName: types.string,
 	dateOfBirth: types.string,

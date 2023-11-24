@@ -21,7 +21,7 @@ export const SideItem = observer(function ({ item }: Props) {
 	} = useStore()
 	const nav = useNavigate()
 	const handleSelectRama = (rama: Rama) => {
-		setSelectedRama(rama._id)
+		setSelectedRama(rama.id)
 		nav(`/${rama.name}`)
 	}
 	return (
