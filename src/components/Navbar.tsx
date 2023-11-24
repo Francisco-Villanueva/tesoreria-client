@@ -1,10 +1,10 @@
 export function Navbar() {
-  return (
-    <nav className="flex justify-between items-center bg-white  w-full  m-auto border rounded-md px-4  ">
-      <div className="flex">LOGO</div>
-      <div>
-        <button className="bg-white p-4 rounded-sm">Log out</button>
-      </div>
-    </nav>
-  );
+	return (
+		<nav className="flex justify-between items-center bg-white  w-full  m-auto border rounded-md px-4  ">
+			<div className="flex">LOGO</div>
+			<div>
+				<button className="bg-white p-4 rounded-sm">Log out</button>
+			</div>
+		</nav>
+	)
 }

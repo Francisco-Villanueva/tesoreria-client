@@ -1,44 +1,44 @@
 {
-  "users": [
-    {
-      "id": "1",
-      "name": "Ines",
-      "email": "ine@gmail.com",
-      "password": "ine123",
-      "role": "admin",
-      "rama": "clan"
-    },
-    {
-      "id": "2",
-      "name": "Victoria",
-      "email": "vic@gmail.com",
-      "password": "vic123",
-      "role": "admin",
-      "rama": "caravana"
-    },
-    {
-      "id": "3",
-      "name": "Ignacio",
-      "email": "ignacio@gmail.com",
-      "password": "ignacio123",
-      "role": "admin",
-      "rama": "manada"
-    },
-    {
-      "id": "4",
-      "name": "Ines",
-      "email": "ine@gmail.com",
-      "password": "ine123",
-      "role": "admin",
-      "rama": "rovers"
-    },
-    {
-      "id": "5",
-      "name": "Agustin",
-      "email": "agus@gmail.com",
-      "password": "agus123",
-      "role": "dirigente",
-      "rama": "unidad"
-    }
-  ]
+	"users": [
+		{
+			"id": "1",
+			"name": "Ines",
+			"email": "ine@gmail.com",
+			"password": "ine123",
+			"role": "admin",
+			"rama": "clan"
+		},
+		{
+			"id": "2",
+			"name": "Victoria",
+			"email": "vic@gmail.com",
+			"password": "vic123",
+			"role": "admin",
+			"rama": "caravana"
+		},
+		{
+			"id": "3",
+			"name": "Ignacio",
+			"email": "ignacio@gmail.com",
+			"password": "ignacio123",
+			"role": "admin",
+			"rama": "manada"
+		},
+		{
+			"id": "4",
+			"name": "Ines",
+			"email": "ine@gmail.com",
+			"password": "ine123",
+			"role": "admin",
+			"rama": "rovers"
+		},
+		{
+			"id": "5",
+			"name": "Agustin",
+			"email": "agus@gmail.com",
+			"password": "agus123",
+			"role": "dirigente",
+			"rama": "unidad"
+		}
+	]
 }

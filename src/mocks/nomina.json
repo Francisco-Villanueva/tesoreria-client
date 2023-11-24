@@ -1,420 +1,420 @@
 {
-  "alitas": [
-    {
-      "name": "Diego",
-      "_id": "20984",
-      "lastName": "Torres",
-      "dateOfBirth": "1976-10-07",
-      "balance": 0,
-      "status": "active"
-    },
-    {
-      "_id": "94659",
-      "name": "Juan",
-      "lastName": "González",
-      "dateOfBirth": "1961-10-27",
-      "balance": 0,
-      "status": "active"
-    },
-    {
-      "name": "María",
-      "_id": "99757",
-      "lastName": "Rodríguez",
-      "dateOfBirth": "1932-10-15",
-      "balance": 0,
-      "status": "active"
-    },
-    {
-      "name": "María",
-      "_id": "31382",
-      "lastName": "Hernández",
-      "dateOfBirth": "1914-10-22",
-      "balance": 0,
-      "status": "active"
-    },
-    {
-      "name": "Juan",
-      "_id": "94659",
-      "lastName": "González",
-      "dateOfBirth": "1961-10-27",
-      "balance": 0,
-      "status": "active"
-    },
-    {
-      "name": "María",
-      "_id": "99757",
-      "lastName": "Rodríguez",
-      "dateOfBirth": "1932-10-15",
-      "balance": 4500,
-      "status": "active"
-    },
-    {
-      "name": "María",
-      "_id": "31382",
-      "lastName": "Hernández",
-      "dateOfBirth": "1914-10-22",
-      "balance": 4500,
-      "status": "active"
-    },
-    {
-      "name": "Juan",
-      "_id": "94659",
-      "lastName": "González",
-      "dateOfBirth": "1961-10-27",
-      "balance": 4500,
-      "status": "active"
-    },
-    {
-      "name": "María",
-      "_id": "99757",
-      "lastName": "Rodríguez",
-      "dateOfBirth": "1932-10-15",
-      "balance": 0,
-      "status": "active"
-    },
-    {
-      "name": "María",
-      "_id": "31382",
-      "lastName": "Hernández",
-      "dateOfBirth": "1914-10-22",
-      "balance": 4500,
-      "status": "active"
-    },
-    {
-      "name": "Ana",
-      "_id": "30682",
-      "lastName": "Sánchez",
-      "dateOfBirth": "1910-03-18",
-      "balance": 9000,
-      "status": "inactive"
-    }
-  ],
-  "manada": [
-    {
-      "name": "José",
-      "_id": "45670",
-      "lastName": "Martínez",
-      "dateOfBirth": "1988-01-22",
-      "balance": 0,
-      "status": "active"
-    },
-    {
-      "name": "Miguel",
-      "_id": "38664",
-      "lastName": "Hernández",
-      "dateOfBirth": "1979-07-09",
-      "balance": 4500,
-      "status": "active"
-    },
-    {
-      "name": "Luis",
-      "_id": "94091",
-      "lastName": "García",
-      "dateOfBirth": "2001-04-29",
-      "balance": 0,
-      "status": "active"
-    },
-    {
-      "name": "Jimena",
-      "_id": "54273",
-      "lastName": "Ramírez",
-      "dateOfBirth": "1923-02-27",
-      "balance": 13500,
-      "status": "inactive"
-    },
-    {
-      "name": "Diego",
-      "_id": "97501",
-      "lastName": "García",
-      "dateOfBirth": "1943-02-17",
-      "balance": 4500,
-      "status": "active"
-    }
-  ],
-  "caravana": [
-    {
-      "name": "Miguel",
-      "_id": "57602",
-      "lastName": "López",
-      "dateOfBirth": "1972-06-15",
-      "balance": 0,
-      "status": "active"
-    },
-    {
-      "name": "Juan",
-      "_id": "24527",
-      "lastName": "Pérez",
-      "dateOfBirth": "1941-04-01",
-      "balance": 0,
-      "status": "inactive"
-    },
-    {
-      "name": "Jimena",
-      "_id": "27793",
-      "lastName": "Hernández",
-      "dateOfBirth": "1943-07-17",
-      "balance": 4500,
-      "status": "active"
-    },
-    {
-      "name": "Juan",
-      "_id": "24223",
-      "lastName": "Ramírez",
-      "dateOfBirth": "1916-07-22",
-      "balance": 0,
-      "status": "active"
-    },
-    {
-      "name": "Miguel",
-      "_id": "18289",
-      "lastName": "Rodríguez",
-      "dateOfBirth": "1935-10-05",
-      "balance": 0,
-      "status": "active"
-    }
-  ],
-  "unidad": [
-    {
-      "name": "María",
-      "_id": "17281",
-      "lastName": "González",
-      "dateOfBirth": "1905-12-27",
-      "balance": 0,
-      "status": "inactive"
-    },
-    {
-      "name": "Miguel",
-      "_id": "33103",
-      "lastName": "Ramírez",
-      "dateOfBirth": "1951-09-21",
-      "balance": 4500,
-      "status": "active"
-    },
-    {
-      "name": "María",
-      "_id": "56715",
-      "lastName": "Rodríguez",
-      "dateOfBirth": "1943-12-08",
-      "balance": 0,
-      "status": "active"
-    },
-    {
-      "name": "Carlos",
-      "_id": "82635",
-      "lastName": "Rodríguez",
-      "dateOfBirth": "1955-07-26",
-      "balance": 0,
-      "status": "active"
-    },
-    {
-      "name": "Sofía",
-      "_id": "5944",
-      "lastName": "Torres",
-      "dateOfBirth": "1912-12-04",
-      "balance": 4500,
-      "status": "inactive"
-    }
-  ],
-  "solar": [
-    {
-      "name": "Miguel",
-      "_id": "44768",
-      "lastName": "Pérez",
-      "dateOfBirth": "1995-01-31",
-      "balance": 0,
-      "status": "active"
-    },
-    {
-      "name": "Luis",
-      "_id": "13629",
-      "lastName": "García",
-      "dateOfBirth": "1939-05-03",
-      "balance": 0,
-      "status": "active"
-    },
-    {
-      "name": "María",
-      "_id": "61202",
-      "lastName": "Hernández",
-      "dateOfBirth": "1964-02-29",
-      "balance": 9000,
-      "status": "inactive"
-    },
-    {
-      "name": "María",
-      "_id": "71306",
-      "lastName": "López",
-      "dateOfBirth": "1903-08-07",
-      "balance": 0,
-      "status": "active"
-    },
-    {
-      "name": "Miguel",
-      "_id": "10686",
-      "lastName": "López",
-      "dateOfBirth": "1950-05-13",
-      "balance": 13500,
-      "status": "active"
-    }
-  ],
-  "caminantes": [
-    {
-      "name": "Sofía",
-      "_id": "68773",
-      "lastName": "Rodríguez",
-      "dateOfBirth": "1917-07-02",
-      "balance": 0,
-      "status": "active"
-    },
-    {
-      "name": "José",
-      "_id": "61089",
-      "lastName": "González",
-      "dateOfBirth": "1941-09-12",
-      "balance": 13500,
-      "status": "active"
-    },
-    {
-      "name": "Sofía",
-      "_id": "87692",
-      "lastName": "Ramírez",
-      "dateOfBirth": "1993-11-24",
-      "balance": 0,
-      "status": "inactive"
-    },
-    {
-      "name": "Sofía",
-      "_id": "9810",
-      "lastName": "González",
-      "dateOfBirth": "1962-07-12",
-      "balance": 0,
-      "status": "active"
-    },
-    {
-      "name": "Jimena",
-      "_id": "91016",
-      "lastName": "García",
-      "dateOfBirth": "1947-07-28",
-      "balance": 4500,
-      "status": "active"
-    }
-  ],
-  "clan": [
-    {
-      "name": "Juan",
-      "_id": "79663",
-      "lastName": "Rodríguez",
-      "dateOfBirth": "1983-06-27",
-      "balance": 0,
-      "status": "inactive"
-    },
-    {
-      "name": "Juan",
-      "_id": "99679",
-      "lastName": "Hernández",
-      "dateOfBirth": "1912-08-06",
-      "balance": 0,
-      "status": "active"
-    },
-    {
-      "name": "José",
-      "_id": "15601",
-      "lastName": "García",
-      "dateOfBirth": "1924-01-16",
-      "balance": 0,
-      "status": "active"
-    },
-    {
-      "name": "María",
-      "_id": "58732",
-      "lastName": "Pérez",
-      "dateOfBirth": "1950-11-03",
-      "balance": 0,
-      "status": "active"
-    },
-    {
-      "name": "Ana",
-      "_id": "91789",
-      "lastName": "Ramírez",
-      "dateOfBirth": "1936-12-03",
-      "balance": 4500,
-      "status": "active"
-    }
-  ],
-  "rovers": [
-    {
-      "name": "José",
-      "_id": "75153",
-      "lastName": "Martínez",
-      "dateOfBirth": "1944-04-19",
-      "balance": 0,
-      "status": "active"
-    },
-    {
-      "name": "Sofía",
-      "_id": "69252",
-      "lastName": "Pérez",
-      "dateOfBirth": "1967-11-01",
-      "balance": 0,
-      "status": "active"
-    },
-    {
-      "name": "Jimena",
-      "_id": "15792",
-      "lastName": "Torres",
-      "dateOfBirth": "1934-09-30",
-      "balance": 0,
-      "status": "inactive"
-    },
-    {
-      "name": "José",
-      "_id": "99802",
-      "lastName": "García",
-      "dateOfBirth": "1924-03-22",
-      "balance": 4500,
-      "status": "active"
-    },
-    {
-      "name": "Miguel",
-      "_id": "94859",
-      "lastName": "García",
-      "dateOfBirth": "1923-02-01",
-      "balance": 0,
-      "status": "active"
-    }
-  ],
-  "dirigentes": [
-    {
-      "name": "Ana",
-      "_id": "91509",
-      "lastName": "Rodríguez",
-      "dateOfBirth": "1968-07-20",
-      "balance": 0,
-      "status": "active"
-    },
-    {
-      "name": "Miguel",
-      "_id": "26619",
-      "lastName": "Pérez",
-      "dateOfBirth": "1969-05-10",
-      "balance": 0,
-      "status": "active"
-    },
-    {
-      "name": "Juan",
-      "_id": "45477",
-      "lastName": "Hernández",
-      "dateOfBirth": "2003-12-13",
-      "balance": 0,
-      "status": "active"
-    },
-    {
-      "name": "María",
-      "_id": "51060",
-      "lastName": "Martínez",
-      "dateOfBirth": "1946-11-29",
-      "balance": 0,
-      "status": "inactive"
-    }
-  ]
+	"alitas": [
+		{
+			"name": "Diego",
+			"_id": "20984",
+			"lastName": "Torres",
+			"dateOfBirth": "1976-10-07",
+			"balance": 0,
+			"status": "active"
+		},
+		{
+			"_id": "94659",
+			"name": "Juan",
+			"lastName": "González",
+			"dateOfBirth": "1961-10-27",
+			"balance": 0,
+			"status": "active"
+		},
+		{
+			"name": "María",
+			"_id": "99757",
+			"lastName": "Rodríguez",
+			"dateOfBirth": "1932-10-15",
+			"balance": 0,
+			"status": "active"
+		},
+		{
+			"name": "María",
+			"_id": "31382",
+			"lastName": "Hernández",
+			"dateOfBirth": "1914-10-22",
+			"balance": 0,
+			"status": "active"
+		},
+		{
+			"name": "Juan",
+			"_id": "94659",
+			"lastName": "González",
+			"dateOfBirth": "1961-10-27",
+			"balance": 0,
+			"status": "active"
+		},
+		{
+			"name": "María",
+			"_id": "99757",
+			"lastName": "Rodríguez",
+			"dateOfBirth": "1932-10-15",
+			"balance": 4500,
+			"status": "active"
+		},
+		{
+			"name": "María",
+			"_id": "31382",
+			"lastName": "Hernández",
+			"dateOfBirth": "1914-10-22",
+			"balance": 4500,
+			"status": "active"
+		},
+		{
+			"name": "Juan",
+			"_id": "94659",
+			"lastName": "González",
+			"dateOfBirth": "1961-10-27",
+			"balance": 4500,
+			"status": "active"
+		},
+		{
+			"name": "María",
+			"_id": "99757",
+			"lastName": "Rodríguez",
+			"dateOfBirth": "1932-10-15",
+			"balance": 0,
+			"status": "active"
+		},
+		{
+			"name": "María",
+			"_id": "31382",
+			"lastName": "Hernández",
+			"dateOfBirth": "1914-10-22",
+			"balance": 4500,
+			"status": "active"
+		},
+		{
+			"name": "Ana",
+			"_id": "30682",
+			"lastName": "Sánchez",
+			"dateOfBirth": "1910-03-18",
+			"balance": 9000,
+			"status": "inactive"
+		}
+	],
+	"manada": [
+		{
+			"name": "José",
+			"_id": "45670",
+			"lastName": "Martínez",
+			"dateOfBirth": "1988-01-22",
+			"balance": 0,
+			"status": "active"
+		},
+		{
+			"name": "Miguel",
+			"_id": "38664",
+			"lastName": "Hernández",
+			"dateOfBirth": "1979-07-09",
+			"balance": 4500,
+			"status": "active"
+		},
+		{
+			"name": "Luis",
+			"_id": "94091",
+			"lastName": "García",
+			"dateOfBirth": "2001-04-29",
+			"balance": 0,
+			"status": "active"
+		},
+		{
+			"name": "Jimena",
+			"_id": "54273",
+			"lastName": "Ramírez",
+			"dateOfBirth": "1923-02-27",
+			"balance": 13500,
+			"status": "inactive"
+		},
+		{
+			"name": "Diego",
+			"_id": "97501",
+			"lastName": "García",
+			"dateOfBirth": "1943-02-17",
+			"balance": 4500,
+			"status": "active"
+		}
+	],
+	"caravana": [
+		{
+			"name": "Miguel",
+			"_id": "57602",
+			"lastName": "López",
+			"dateOfBirth": "1972-06-15",
+			"balance": 0,
+			"status": "active"
+		},
+		{
+			"name": "Juan",
+			"_id": "24527",
+			"lastName": "Pérez",
+			"dateOfBirth": "1941-04-01",
+			"balance": 0,
+			"status": "inactive"
+		},
+		{
+			"name": "Jimena",
+			"_id": "27793",
+			"lastName": "Hernández",
+			"dateOfBirth": "1943-07-17",
+			"balance": 4500,
+			"status": "active"
+		},
+		{
+			"name": "Juan",
+			"_id": "24223",
+			"lastName": "Ramírez",
+			"dateOfBirth": "1916-07-22",
+			"balance": 0,
+			"status": "active"
+		},
+		{
+			"name": "Miguel",
+			"_id": "18289",
+			"lastName": "Rodríguez",
+			"dateOfBirth": "1935-10-05",
+			"balance": 0,
+			"status": "active"
+		}
+	],
+	"unidad": [
+		{
+			"name": "María",
+			"_id": "17281",
+			"lastName": "González",
+			"dateOfBirth": "1905-12-27",
+			"balance": 0,
+			"status": "inactive"
+		},
+		{
+			"name": "Miguel",
+			"_id": "33103",
+			"lastName": "Ramírez",
+			"dateOfBirth": "1951-09-21",
+			"balance": 4500,
+			"status": "active"
+		},
+		{
+			"name": "María",
+			"_id": "56715",
+			"lastName": "Rodríguez",
+			"dateOfBirth": "1943-12-08",
+			"balance": 0,
+			"status": "active"
+		},
+		{
+			"name": "Carlos",
+			"_id": "82635",
+			"lastName": "Rodríguez",
+			"dateOfBirth": "1955-07-26",
+			"balance": 0,
+			"status": "active"
+		},
+		{
+			"name": "Sofía",
+			"_id": "5944",
+			"lastName": "Torres",
+			"dateOfBirth": "1912-12-04",
+			"balance": 4500,
+			"status": "inactive"
+		}
+	],
+	"solar": [
+		{
+			"name": "Miguel",
+			"_id": "44768",
+			"lastName": "Pérez",
+			"dateOfBirth": "1995-01-31",
+			"balance": 0,
+			"status": "active"
+		},
+		{
+			"name": "Luis",
+			"_id": "13629",
+			"lastName": "García",
+			"dateOfBirth": "1939-05-03",
+			"balance": 0,
+			"status": "active"
+		},
+		{
+			"name": "María",
+			"_id": "61202",
+			"lastName": "Hernández",
+			"dateOfBirth": "1964-02-29",
+			"balance": 9000,
+			"status": "inactive"
+		},
+		{
+			"name": "María",
+			"_id": "71306",
+			"lastName": "López",
+			"dateOfBirth": "1903-08-07",
+			"balance": 0,
+			"status": "active"
+		},
+		{
+			"name": "Miguel",
+			"_id": "10686",
+			"lastName": "López",
+			"dateOfBirth": "1950-05-13",
+			"balance": 13500,
+			"status": "active"
+		}
+	],
+	"caminantes": [
+		{
+			"name": "Sofía",
+			"_id": "68773",
+			"lastName": "Rodríguez",
+			"dateOfBirth": "1917-07-02",
+			"balance": 0,
+			"status": "active"
+		},
+		{
+			"name": "José",
+			"_id": "61089",
+			"lastName": "González",
+			"dateOfBirth": "1941-09-12",
+			"balance": 13500,
+			"status": "active"
+		},
+		{
+			"name": "Sofía",
+			"_id": "87692",
+			"lastName": "Ramírez",
+			"dateOfBirth": "1993-11-24",
+			"balance": 0,
+			"status": "inactive"
+		},
+		{
+			"name": "Sofía",
+			"_id": "9810",
+			"lastName": "González",
+			"dateOfBirth": "1962-07-12",
+			"balance": 0,
+			"status": "active"
+		},
+		{
+			"name": "Jimena",
+			"_id": "91016",
+			"lastName": "García",
+			"dateOfBirth": "1947-07-28",
+			"balance": 4500,
+			"status": "active"
+		}
+	],
+	"clan": [
+		{
+			"name": "Juan",
+			"_id": "79663",
+			"lastName": "Rodríguez",
+			"dateOfBirth": "1983-06-27",
+			"balance": 0,
+			"status": "inactive"
+		},
+		{
+			"name": "Juan",
+			"_id": "99679",
+			"lastName": "Hernández",
+			"dateOfBirth": "1912-08-06",
+			"balance": 0,
+			"status": "active"
+		},
+		{
+			"name": "José",
+			"_id": "15601",
+			"lastName": "García",
+			"dateOfBirth": "1924-01-16",
+			"balance": 0,
+			"status": "active"
+		},
+		{
+			"name": "María",
+			"_id": "58732",
+			"lastName": "Pérez",
+			"dateOfBirth": "1950-11-03",
+			"balance": 0,
+			"status": "active"
+		},
+		{
+			"name": "Ana",
+			"_id": "91789",
+			"lastName": "Ramírez",
+			"dateOfBirth": "1936-12-03",
+			"balance": 4500,
+			"status": "active"
+		}
+	],
+	"rovers": [
+		{
+			"name": "José",
+			"_id": "75153",
+			"lastName": "Martínez",
+			"dateOfBirth": "1944-04-19",
+			"balance": 0,
+			"status": "active"
+		},
+		{
+			"name": "Sofía",
+			"_id": "69252",
+			"lastName": "Pérez",
+			"dateOfBirth": "1967-11-01",
+			"balance": 0,
+			"status": "active"
+		},
+		{
+			"name": "Jimena",
+			"_id": "15792",
+			"lastName": "Torres",
+			"dateOfBirth": "1934-09-30",
+			"balance": 0,
+			"status": "inactive"
+		},
+		{
+			"name": "José",
+			"_id": "99802",
+			"lastName": "García",
+			"dateOfBirth": "1924-03-22",
+			"balance": 4500,
+			"status": "active"
+		},
+		{
+			"name": "Miguel",
+			"_id": "94859",
+			"lastName": "García",
+			"dateOfBirth": "1923-02-01",
+			"balance": 0,
+			"status": "active"
+		}
+	],
+	"dirigentes": [
+		{
+			"name": "Ana",
+			"_id": "91509",
+			"lastName": "Rodríguez",
+			"dateOfBirth": "1968-07-20",
+			"balance": 0,
+			"status": "active"
+		},
+		{
+			"name": "Miguel",
+			"_id": "26619",
+			"lastName": "Pérez",
+			"dateOfBirth": "1969-05-10",
+			"balance": 0,
+			"status": "active"
+		},
+		{
+			"name": "Juan",
+			"_id": "45477",
+			"lastName": "Hernández",
+			"dateOfBirth": "2003-12-13",
+			"balance": 0,
+			"status": "active"
+		},
+		{
+			"name": "María",
+			"_id": "51060",
+			"lastName": "Martínez",
+			"dateOfBirth": "1946-11-29",
+			"balance": 0,
+			"status": "inactive"
+		}
+	]
 }
