@@ -5,7 +5,13 @@ import { useNavigate } from "react-router-dom";
 import { useStore } from "../models/root.store";
 import { Rama } from "../types/ramas";
 interface Props {
-  item: any;
+  item: Items;
+}
+
+interface Items {
+  name: string;
+  type: string;
+  content: Rama[];
 }
 export const SideItem = observer(function ({ item }: Props) {
   const [open, setOpen] = useState(false);

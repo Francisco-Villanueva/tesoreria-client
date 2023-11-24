@@ -3,7 +3,7 @@ import { useStore } from "../models/root.store";
 import { MemberStatus, TableHead, TableHeadItem, TableRow } from "../common";
 import { RamaInfoHeader } from "../components";
 
-export default observer(function RamaInfo() {
+export const RamaInfo = observer(function RamaInfo() {
   const {
     ramas: { selectedRama },
   } = useStore();

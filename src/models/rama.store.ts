@@ -34,8 +34,8 @@ export const RamasStore = types
   }))
 
   .actions((store) => ({
-    setRamas(teams: any) {
-      store.ramas = teams;
+    setRamas(data: Rama[]) {
+      store.ramas.push(...data);
     },
 
     addTeam(team: Rama) {

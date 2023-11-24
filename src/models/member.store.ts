@@ -18,8 +18,8 @@ export const MemberStore = types
     },
   }))
   .actions((store) => ({
-    setMembers(members: any) {
-      store.members = members;
+    setMembers(members: Member[]) {
+      store.members.push(...members);
     },
     addMember(member: Member) {
       store.members.push(member);

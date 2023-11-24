@@ -19,7 +19,7 @@ export const RamaModel = types.model({
   name: types.enumeration(RAMAS_NAMES),
   logo: types.optional(types.string, ""),
   color: types.optional(types.string, ""),
-  members: types.optional(types.array(MemberModel), []),
+  members: types.array(MemberModel),
 });
 
 export type Rama = Instance<typeof RamaModel>;
