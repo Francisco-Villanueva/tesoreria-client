@@ -1,1 +1,1 @@
-export * from "./ramas.services";
+export * from './ramas.services'
