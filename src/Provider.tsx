@@ -1,6 +1,6 @@
 import { RootStore, RootStoreContext } from "./models/root.store";
 import { ReactNode, useEffect } from "react";
-import { RamasServices } from "./services/ramas.services";
+import { RamasServices } from "./services";
 
 type ProvidersProps = {
   children: ReactNode;
