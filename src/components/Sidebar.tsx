@@ -11,16 +11,19 @@ export function Sidebar() {
 		{
 			name: 'Panel de Control',
 			type: 'static',
+			route: '',
 			content: [],
 		},
 		{
 			name: 'Ramas',
 			type: 'dynamic',
+			route: '',
 			content: ramas,
 		},
 		{
 			name: 'CFA',
 			type: 'static',
+			route: '',
 			content: ramas,
 		},
 	]

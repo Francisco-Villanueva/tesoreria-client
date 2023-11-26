@@ -25,6 +25,7 @@ module.exports = {
 				'dark-grey': '#78767b',
 				'dark-text': '#1d1732',
 				selected: '#347469',
+				disabled: 'rgba(255,255,255,.3)',
 				hoverBlue: '#ECF0F7',
 				pressedBlue: '#E2E8F2',
 				purple: '#9747FF',
