@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import { observer } from 'mobx-react-lite'
 import { ShortArrowIcon } from './Icons'
-import { useNavigate } from 'react-router-dom'
 import { useStore } from '../models/root.store'
 import { Rama } from '../types/ramas'
 interface Props {
@@ -11,6 +10,7 @@ interface Props {
 interface Items {
 	name: string
 	type: string
+	route: string
 	content: Rama[]
 }
 export const SideItem = observer(function ({ item }: Props) {
@@ -19,10 +19,8 @@ export const SideItem = observer(function ({ item }: Props) {
 	const {
 		ramas: { setSelectedRama },
 	} = useStore()
-	const nav = useNavigate()
 	const handleSelectRama = (rama: Rama) => {
 		setSelectedRama(rama.id)
-		nav(`/${rama.name}`)
 	}
 	return (
 		<div className="flex flex-col  p-2">
