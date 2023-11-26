@@ -1,12 +1,15 @@
-import { Route, Routes } from 'react-router-dom'
+import { observer } from 'mobx-react-lite'
 import { RamaInfo } from '../views/RamaInfo'
+import { useStore } from '../models/root.store'
 
-export function Content() {
+export const Content = observer(function Content() {
+	const {
+		ramas: { selectedRama },
+	} = useStore()
+
 	return (
 		<section className="border rounded-md p-4 flex   flex-grow bg-white ">
-			<Routes>
-				<Route path="/:id" element={<RamaInfo />} />
-			</Routes>
+			{selectedRama ? <RamaInfo /> : 'No Rama Selected'}
 		</section>
 	)
-}
+})

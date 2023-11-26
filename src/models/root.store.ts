@@ -3,10 +3,12 @@ import { createContext, useContext } from 'react'
 import { types, Instance, SnapshotOut } from 'mobx-state-tree'
 import { MemberStore } from './member.store'
 import { RamasStore } from './rama.store'
+import { UserStore } from './user.store'
 
 export const RootStore = types.model({
 	members: types.late(() => MemberStore),
 	ramas: types.late(() => RamasStore),
+	users: types.late(() => UserStore),
 })
 
 export const useStore = () => {

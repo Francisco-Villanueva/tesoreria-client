@@ -6,7 +6,7 @@
 			"email": "ine@gmail.com",
 			"password": "ine123",
 			"role": "admin",
-			"rama": "clan"
+			"ramaId": "6"
 		},
 		{
 			"id": "2",
@@ -14,23 +14,23 @@
 			"email": "vic@gmail.com",
 			"password": "vic123",
 			"role": "admin",
-			"rama": "caravana"
+			"ramaId": "2"
 		},
 		{
 			"id": "3",
 			"name": "Ignacio",
-			"email": "ignacio@gmail.com",
-			"password": "ignacio123",
+			"email": "nacho@gmail.com",
+			"password": "nacho123",
 			"role": "admin",
-			"rama": "manada"
+			"ramaId": "1"
 		},
 		{
 			"id": "4",
-			"name": "Ines",
-			"email": "ine@gmail.com",
-			"password": "ine123",
+			"name": "Francisco",
+			"email": "fran@gmail.com",
+			"password": "fran123",
 			"role": "admin",
-			"rama": "rovers"
+			"ramaId": "7"
 		},
 		{
 			"id": "5",
@@ -38,7 +38,7 @@
 			"email": "agus@gmail.com",
 			"password": "agus123",
 			"role": "dirigente",
-			"rama": "unidad"
+			"ramaId": "3"
 		}
 	]
 }
