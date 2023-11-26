@@ -19,8 +19,8 @@
 		{
 			"id": "3",
 			"name": "Ignacio",
-			"email": "ignacio@gmail.com",
-			"password": "ignacio123",
+			"email": "nacho@gmail.com",
+			"password": "nacho123",
 			"role": "admin",
 			"ramaId": "1"
 		},

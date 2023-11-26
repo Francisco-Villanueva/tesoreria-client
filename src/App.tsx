@@ -1,7 +1,22 @@
-import { Route, Routes } from 'react-router'
+import { useEffect } from 'react'
+import { Route, Routes, useNavigate } from 'react-router'
 import { Login, HomePage } from './views'
+import { observer } from 'mobx-react-lite'
+import { useStore } from './models/root.store'
 
-export default function App() {
+const App = observer(function () {
+	const {
+		users: { setLoggedUserId },
+	} = useStore()
+	const nav = useNavigate()
+	useEffect(() => {
+		const currentUser_ID = localStorage.getItem('userId')
+		if (!currentUser_ID) {
+			nav('/login')
+		} else {
+			setLoggedUserId(currentUser_ID)
+		}
+	}, [nav, setLoggedUserId])
 	return (
 		<main className="">
 			<Routes>
@@ -10,4 +25,6 @@ export default function App() {
 			</Routes>
 		</main>
 	)
-}
+})
+
+export default App
