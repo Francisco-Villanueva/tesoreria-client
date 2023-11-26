@@ -8,7 +8,7 @@ export const Content = observer(function Content() {
 	} = useStore()
 
 	return (
-		<section className="border rounded-md p-4 flex   flex-grow bg-white ">
+		<section className="border rounded-md p-4 flex   flex-grow bg-white  max-sm:text-sm">
 			{selectedRama ? <RamaInfo /> : 'No Rama Selected'}
 		</section>
 	)
