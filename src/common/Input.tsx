@@ -59,7 +59,7 @@ export function Input({
 					)}
 				</button>
 			)}
-			{true ? (
+			{error ? (
 				<p className=" absolute bottom-0 left-0 rounded-sm   text-red text-xs   ">
 					{error}
 				</p>
