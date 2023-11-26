@@ -15,6 +15,9 @@ export const UserStore = types
 				return user
 			}
 		},
+		get currentUser() {
+			return store.users.find((user) => user.id === store.userLoggedId)
+		},
 	}))
 	.actions((store) => ({
 		setUsers(users: User[]) {

@@ -7,6 +7,9 @@ export const RamasStore = types
 		ramaId: types.optional(types.string, ''),
 	})
 	.views((store) => ({
+		getRamaById(ramaId: string) {
+			return store.ramas.find((rama) => rama.id === ramaId)
+		},
 		get selectedRama() {
 			return store.ramas.find((rama) => rama.id === store.ramaId)
 		},

@@ -1,8 +1,8 @@
 import { RootStore, RootStoreContext } from './models/root.store'
-import { ReactNode, useEffect } from 'react'
+import { ReactNode, useEffect, useCallback } from 'react'
 import { RamasServices } from './services'
-import { UserServices } from './services/users.services'
 
+import { UserServices } from './services/users.services'
 type ProvidersProps = {
 	children: ReactNode
 }
@@ -14,7 +14,7 @@ export default function Providers({ children }: ProvidersProps) {
 		users: {},
 	})
 
-	useEffect(() => {
+	const setData = useCallback(async () => {
 		RamasServices.getAllRamas().then((res) => {
 			store.ramas.setRamas(res)
 		})
@@ -22,6 +22,9 @@ export default function Providers({ children }: ProvidersProps) {
 			store.users.setUsers(res)
 		})
 	}, [store])
+	useEffect(() => {
+		setData()
+	}, [setData])
 
 	return (
 		<RootStoreContext.Provider value={store}>
