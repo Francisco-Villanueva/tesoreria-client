@@ -14,17 +14,17 @@ export const RamaInfoHeader = observer(function () {
 		},
 	} = useStore()
 	return (
-		<article className=" h-full flex items-center  justify-between rounded-md bg-blue text-white  p-4 ">
-			<section className="">
+		<article className=" h-full flex max-sm:flex-col max-sm:gap-2 items-center  justify-between rounded-md bg-blue text-white  p-4 max-sm:py-2">
+			<section className=" max-sm:w-full">
 				<Title>{selectedRama?.name}</Title>
 				<div>Integrantes: {selectedRamaCount}</div>
 			</section>
 
-			<section className="flex  flex-col items-center">
+			<section className="flex  flex-col items-center ">
 				<span> Deuda total</span>
 				<Title>$ {totalDebt}</Title>
 			</section>
-			<section className=" flex gap-2">
+			<section className=" flex gap-2  ">
 				<div className="flex flex-col  items-center gap-0">
 					<MemberStatus status="active" />
 					<strong> {activesCount}</strong>
